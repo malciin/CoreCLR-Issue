@@ -1,4 +1,9 @@
 services:
+  company.frontend:
+    build:
+      context: Source/Company.Frontend
+      dockerfile: Dockerfile
+
   company.webapi:
     image: ${DOCKER_REGISTRY-}companywebapi
     build:
