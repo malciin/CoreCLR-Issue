@@ -5,7 +5,10 @@
       "commandVersion": "1.0",
       "serviceActions": {
         "company.webapi": "StartDebugging",
-        "company.worker": "StartDebugging"
+        "company.worker": "StartDebugging",
+        "company.otherwebapi": "StartDebugging",
+        "company.otherwebapi2": "StartDebugging",
+        "company.otherwebapi3": "StartDebugging"
       }
     }
   }

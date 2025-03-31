@@ -11,3 +11,21 @@ services:
       context: .
       dockerfile: Source/Company.Worker/Dockerfile
 
+  company.otherwebapi:
+    image: ${DOCKER_REGISTRY-}companyotherwebapi
+    build:
+      context: .
+      dockerfile: Source/Company.OtherWebApi/Dockerfile
+
+  company.otherwebapi2:
+    image: ${DOCKER_REGISTRY-}companyotherwebapi2
+    build:
+      context: .
+      dockerfile: Source/Company.OtherWebApi2/Dockerfile
+
+  company.otherwebapi3:
+    image: ${DOCKER_REGISTRY-}companyotherwebapi3
+    build:
+      context: .
+      dockerfile: Source/Company.OtherWebApi3/Dockerfile
+
