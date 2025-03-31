@@ -1,0 +1,13 @@
+services:
+  company.webapi:
+    image: ${DOCKER_REGISTRY-}companywebapi
+    build:
+      context: .
+      dockerfile: Source/Company.WebApi/Dockerfile
+
+  company.worker:
+    image: ${DOCKER_REGISTRY-}companyworker
+    build:
+      context: .
+      dockerfile: Source/Company.Worker/Dockerfile
+
