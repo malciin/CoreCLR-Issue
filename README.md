@@ -1,3 +1,5 @@
+https://developercommunity.visualstudio.com/t/CoreCLR-error-when-running-docker-compos/10882405
+
 Repo that reproduces following error:
 
 <img src="./devenv_7ggqveJDj6.png" />
